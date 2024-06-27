@@ -1,0 +1,24 @@
+table {
+            border: 2px solid rgb(168, 7, 141);
+            margin-left: auto;
+            margin-right: auto;
+        }
+ 
+        input[type="button"] {
+            width: 100%;
+            padding: 10px 10px;
+            background-color: rgb(121, 89, 162);
+            color: white;
+            font-size: 25px;
+            border-radius:10px;
+            border: 2px solid rgb(168, 7, 141);
+        }
+ 
+        input[type="text"] {
+            padding: 20px 20px;
+            font-size: 25px;
+            font-weight:inherit;
+            border: none;
+            border-radius:10px;
+            border: 2px solid rgb(168, 7, 141);
+        }

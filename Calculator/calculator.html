@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viwepoint" content="width=device-width, initial-scale=1.0">
+    <link href="calculator.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js" integrity="sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js" integrity="sha512-iphNRh6dPbeuPGIrQbCdbBF/qcqadKWLa35YPVfMZMHBSI6PLJh1om2xCTWhpVpmUyb4IvVS9iYnnYMkleVXLA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>JavaScript Calculator</title>
+</head>
+<body>
+    <table id="Calculator">
+        <tr>
+            <td colspan="4"><input type="text" id="result"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="AC" onclick="Allclear()" /> </td>
+            <td><input type="button" value="⬅" onclick="back()" /> </td>
+            <td><input type="button" value="%" onclick="show('%')" onvaldown="myFun(word)"> </td>
+            <td><input type="button" value="/" onclick="show('/')" onvaldown="myFun(word)"> </td>  
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="show('7')" onvaldown="myFun(word)"> </td>
+            <td><input type="button" value="8" onclick="show('8')" onvaldown="myFun(word)"> </td>
+            <td><input type="button" value="9" onclick="show('9')" onvaldown="myFun(word)"> </td>
+            <td><input type="button" value="*" onclick="show('*')" onvaldown="myFun(word)"> </td>  
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="show('4')" onvaldown="myFun(word)"> </td>
+            <td><input type="button" value="5" onclick="show('5')" onvaldown="myFun(word)"> </td>
+            <td><input type="button" value="6" onclick="show('6')" onvaldown="myFun(word)"> </td>
+            <td><input type="button" value="-" onclick="show('-')" onvaldown="myFun(word)"> </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="show('1')" onvaldown="myFun(word)"> </td>
+            <td><input type="button" value="2" onclick="show('2')" onvaldown="myFun(word)"> </td>
+            <td><input type="button" value="3" onclick="show('3')" onvaldown="myFun(word)"> </td>
+            <td><input type="button" value="+" onclick="show('+')" onvaldown="myFun(word)"> </td>
+        </tr>
+        <tr>
+           
+            <td><input type="button" value="." onclick="show('.')" onvaldown="myFun(word)"> </td>
+            <td><input type="button" value="0" onclick="show('0')" onvaldown="myFun(word)"> </td>
+            <td colspan="2"><input type="button" value="=" onclick="sum()"></td>
+        </tr>  
+    </table>
+    <script src="calculator.js"></script>
+</body>
+</html>
+
+
+
+
+
