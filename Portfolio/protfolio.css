@@ -1,0 +1,59 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    background-color: #6a4860;
+    padding: 0;
+    color: #ffffff;
+  }
+  
+  .main {
+    background-color: #9e8999;
+    color: #ffffff;
+    text-align:center;
+    padding: 10px   10px;
+  }
+  img{
+    width:75px;
+  }
+  .about {
+    text-align:left;
+    padding: 10px 0;
+  }
+  table,th,tr {
+    text-align: ;
+    padding: 10px 10px;
+    border:1px solid #fff;
+  }
+ table {
+width:70%;
+  }
+  .th1{
+    width:25%;
+  }
+  th2{
+    width:75%;
+  }
+  .project a {
+    color: #ffffff;
+  }
+  .projects {
+    text-align: center;
+    padding: 20px 20px;
+  }
+  
+  .project {
+    margin-bottom: 30px;
+  }
+  
+  .resume, .contact {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .resume a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
